@@ -1,0 +1,8 @@
+Select authors.name, count(books.authorid)
+FROM authors left join books
+on authors.authorid = books.authorid
+ group by authors.name;
+ 
+ delete from authors where name = 'Al Anderson';
+ delete from authors where name = 'Jan Goyvaerts';
+ delete from authors where name = 'Chris Smith';

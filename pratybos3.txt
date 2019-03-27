@@ -1,0 +1,2 @@
+delete from authors where name = 'john test';
+delete from authors where name = 'john test2';
